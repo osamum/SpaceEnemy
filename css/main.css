@@ -1,0 +1,51 @@
+﻿html {-ms-touch-action: manipulation;}
+
+body {
+      margin : 0px;
+      padding :0px;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+}
+        
+#stage {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 639px) {
+    #enchant-stage {
+    /* width: 400px; */
+     top:80px;
+     zoom:0.6;
+    }
+
+    #stage {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #enchant-stage {
+     width: 640px;
+     margin: 0 auto;
+    }
+}
+
+@media screen and (max-height: 1080px) 
+    and (min-height: 768px){
+        #enchant-stage {
+             top: 80px;
+             height: 768px;
+        }
+}
+
+@media screen and (max-height: 1200px) 
+    and (min-height: 1081px) {
+    #enchant-stage {
+        top: 160px;
+    }
+    #stage {
+        height: 1081px;
+    }
+
+}
